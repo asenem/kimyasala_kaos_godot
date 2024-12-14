@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cxqsi7has5vkj"]
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="background" type="ColorRect" parent="."]
+offset_right = 301.0
+offset_bottom = 176.0
+color = Color(0, 0, 0.129412, 1)
+
+[node name="title" type="Label" parent="background"]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 41.0
+offset_right = 212.0
+offset_bottom = 64.0
+text = "KİMYASAL KAOS"
