@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://cxqsi7has5vkj"]
+[gd_scene load_steps=3 format=3 uid="uid://cxqsi7has5vkj"]
+
+[ext_resource type="Texture2D" uid="uid://bormrx65vk37s" path="res://Varlık 3.png" id="1_8w8c0"]
+[ext_resource type="Texture2D" uid="uid://q5jmanolmqyf" path="res://Varlık 4.png" id="2_nuwkq"]
 
 [node name="MainMenu" type="Node2D"]
 
@@ -14,3 +17,13 @@ offset_top = 41.0
 offset_right = 212.0
 offset_bottom = 64.0
 text = "KİMYASAL KAOS"
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="background/title"]
+position = Vector2(38, 38)
+scale = Vector2(0.367347, 0.367347)
+texture_normal = ExtResource("1_8w8c0")
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="background"]
+position = Vector2(125, 105)
+scale = Vector2(0.367347, 0.367347)
+texture_normal = ExtResource("2_nuwkq")
